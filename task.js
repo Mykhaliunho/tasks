@@ -147,7 +147,7 @@ let messageEnd = (40 > 35) ? 'Volodya' : 'Slavko';
 messageStart += messageEnd;
 console.log(message);
 
-let salary = 1000, position;
+let salary = 900, position;
 switch(salary) {
     case 900: position = 'Frontend'; break;
     case 1000: position = 'QA'; break;
@@ -155,3 +155,5 @@ switch(salary) {
     default: position = 'PM';
 }
 console.log(position)
+
+
