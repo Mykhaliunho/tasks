@@ -162,5 +162,3 @@ switch(salary) {
         position = 'PM';
 }
 console.log(position)
-
-
