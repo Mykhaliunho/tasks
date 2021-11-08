@@ -149,10 +149,17 @@ console.log(message);
 
 let salary = 900, position;
 switch(salary) {
-    case 900: position = 'Frontend'; break;
-    case 1000: position = 'QA'; break;
-    case 1100: position = 'Backend'; break;
-    default: position = 'PM';
+    case 900:
+        position = 'Frontend'; 
+        break;
+    case 1000: 
+        position = 'QA'; 
+        break;
+    case 1100: 
+        position = 'Backend'; 
+        break;
+    default: 
+        position = 'PM';
 }
 console.log(position)
 
