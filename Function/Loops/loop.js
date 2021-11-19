@@ -160,6 +160,17 @@
 //   const arrayNums1 = [7, 101, 3, 1, 9, 11, 100, 111];
 //   const arrayNums2 = [90, 101, 3, 1, 69, 11, 10, 111];
 //   console.log(sumNumsInArrays(arrayNums1, arrayNums2));
+
+
+const stringsArray = ['one-test', 'cat', 'parrot', 'banana', 'test-dog', 'dog'];
+   function filterStringsArray(array) {
+       let array1 = stringsArray;
+      array1.filter((array1) => array1 !== "one-test" && array1 !== "test-dog");
+      return array;
+    }
+    console.log(filterStringsArray(array));
+
+    
   
   
   
